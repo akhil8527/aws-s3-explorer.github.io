@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<!--<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.2/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2024.3.2/core.js"></script>
+	<py-env>
+        - boto3
+    </py-env>
+    <title>AWS S3 Dashboard</title>
+</head>
+
+<body>
+    <h1>PyScript Test</h1>
+    
+    <script type="py">
+        from pyscript import display
+        import boto3
+        display("Awesome!")
+        display("Hello@")
+    </script>
+
+</body>
+
+</html>
+-->
+
+<html>
+    <head>
+      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      <py-env>
+        - paths:
+          - ./example.py
+      </py-env>
+    </head>
+  <body>
+    <h1>Let's print random numbers</h1>
+    <b> <label id="lucky"></label></b>
+    <py-script>
+      from example import generate_random_password
+      pyscript.write('lucky', generate_random_password())
+    </py-script>
+  </body>
+</html>

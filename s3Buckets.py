@@ -1,8 +1,8 @@
 import boto3
 
 
-ACCESS_KEY_ID = "AKIA47CRW5WNBS42SC4W"                      
-SECRET_ACCESS_KEY = "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"
+ACCESS_KEY_ID = "abcdefghijklmnopqrst"                      
+SECRET_ACCESS_KEY = "abcdefghijklmnopqrstuvwxyz"
 
 print("Connecting to AWS Client...")
 s3_client = boto3.client('s3',
